@@ -14,7 +14,7 @@ An agent for generating and tokenizing unique AI art on-chain using OpenAI GPT I
 - **One-Click Token Launch** - Deploy AI-generated art as tokens on pump.fun
 - **Portfolio Dashboard** - Track your deployed tokens and holdings
 - **Prompt Enhancement** - AI-powered prompt optimization for better images
-
+- **Turnip Contract** - 9d6gaSmkBgRiLw7UGKZWzTm1e8FWCCbeM2tmadSspump
 ## Installation
 
 ```bash
@@ -163,3 +163,4 @@ console.log(`Token deployed: ${launched.token.pumpUrl}`);
 ## License
 
 MIT © [steph3n](https://x.com/__steph3n)
+
