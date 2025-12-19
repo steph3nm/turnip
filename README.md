@@ -1,6 +1,12 @@
 # 🥕 Turnip Agent
 
-An agent for generating and tokenizing unique AI art on-chain using OpenAI GPT Image 1.5, PumpPortal, and Helius APIs on Solana.
+[![npm version](https://img.shields.io/npm/v/turnip-agent.svg)](https://www.npmjs.com/package/turnip-agent)
+[![npm downloads](https://img.shields.io/npm/dm/turnip-agent.svg)](https://www.npmjs.com/package/turnip-agent)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![Solana](https://img.shields.io/badge/Solana-mainnet-green.svg)](https://solana.com/)
+
+An agent for generating and tokenizing unique AI art on-chain using OpenAI GPT Image 1.5, pump.fun API, and Helius APIs on Solana.
 
 ## Features
 
