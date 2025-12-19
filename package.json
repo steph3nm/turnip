@@ -1,0 +1,59 @@
+{
+  "name": "turnip-agent",
+  "version": "0.1.0",
+  "description": "An agent for generating and tokenizing unique AI art on-chain using OpenAI, PumpPortal, and Helius",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "turnip": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "dev": "tsx src/cli.ts",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "ai",
+    "art",
+    "openai",
+    "nft",
+    "token",
+    "pumpfun",
+    "helius",
+    "agent",
+    "generative-art"
+  ],
+  "author": "steph3n",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steph3nm/turnip"
+  },
+  "homepage": "https://turnip.sh",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@solana/web3.js": "^1.91.0",
+    "axios": "^1.6.0",
+    "bs58": "^5.0.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "openai": "^4.40.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
